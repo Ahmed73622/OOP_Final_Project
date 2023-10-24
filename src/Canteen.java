@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class Canteen
 {
-    private int InchargeId;
-    private ArrayList<Item> ItemsList;
-    private ArrayList<Item> AvailableList;
+    public int InchargeId;
+    public ArrayList<Item> ItemsList;
+    public ArrayList<Item> AvailableList;
 
 }
 class  Item

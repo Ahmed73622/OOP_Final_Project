@@ -1,9 +1,9 @@
 public class Classroom
 {
-    private int ClassId;
-    private String Section;
-    private int DepartmentId;
-    private boolean IsOccupied;
+    public int ClassId;
+    public String Section;
+    public int DepartmentId;
+    public boolean IsOccupied;
     public String ClassroomDetails()
     {
         return "Classroom{" +

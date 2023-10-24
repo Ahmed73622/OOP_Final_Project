@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class Department
 {
-    private int DepartmentId;
-    private String DepartmentName;
-    private String HODName;
+    public int DepartmentId;
+    public String DepartmentName;
+    public String HODName;
     ArrayList<Staff> TotalStaffs;
     ArrayList<Student> TotalStudents;
     public String DepartmentDetails() {

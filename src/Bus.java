@@ -1,10 +1,10 @@
 public class Bus
 {
-    private int BusId;
-    private int BusNumber;
-    private String DriverName;
-    private String Destination;
-    private int TotalSeats;
+    public int BusId;
+    public int BusNumber;
+    public String DriverName;
+    public String Destination;
+    public int TotalSeats;
     public String BusDetails() {
         return "Bus{" +
                 "BusId=" + BusId +

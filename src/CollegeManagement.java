@@ -1,9 +1,16 @@
+import java.util.ArrayList;
+
 public class CollegeManagement
 {
-    private String CollegeName;
-    private String City;
-    private String ContactNumber;
-    private boolean isOpen;
+    public String CollegeName;
+    public String City;
+    public String ContactNumber;
+    public boolean isOpen;
+    public Auditorium auditorium;
+    public ArrayList<Parking> parkings;
+    public Classroom classroom;
+    public Department department;
+    public ArrayList<Hostel> hostels;
 
     public boolean Open()
     {

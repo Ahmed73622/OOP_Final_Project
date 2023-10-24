@@ -2,10 +2,10 @@ import java.util.ArrayList;
 
 public class Library
 {
-    private int LibraryId;
-    private String LibrarianName;
-    private ArrayList<String> BookSection;
-    private ArrayList<Book> TotalBooks;
+    public int LibraryId;
+    public String LibrarianName;
+    public ArrayList<String> BookSection;
+    public ArrayList<Book> TotalBooks;
     public String LibraryDetails()
     {
         return "Library{" +

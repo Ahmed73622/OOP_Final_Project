@@ -2,15 +2,15 @@ import java.util.ArrayList;
 
 public abstract class Student
 {
-    private int StudentId;
-    private String StudentName;
-    private char Gender;
-    private int Year;
-    private boolean PaymentStatus;
-    private int ClassId;
+    public int StudentId;
+    public String StudentName;
+    public char Gender;
+    public int Year;
+    public boolean PaymentStatus;
+    public int ClassId;
 
     //++
-    private ArrayList<Book> BorrowedBooks;
+    public ArrayList<Book> BorrowedBooks;
     public String StudentDetails()
     {
         return "Student{" +

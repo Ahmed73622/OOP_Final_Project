@@ -1,9 +1,9 @@
 public abstract class Staff
 {
-    private int StaffId;
-    private String StaffName;
-    private int DepartmentId;
-    private double Salary;
+    public int StaffId;
+    public String StaffName;
+    public int DepartmentId;
+    public double Salary;
 
     public String StaffDetails() {
         return "Staff{" +

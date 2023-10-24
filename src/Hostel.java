@@ -1,8 +1,9 @@
 public abstract class Hostel
 {
-    private int StudentId;
-    private String BlockNumber;
-    private String RoomNumber;
+    public int StudentId;
+    public String BlockNumber;
+    public String RoomNumber;
+    public boolean check;
 
     public String HostelDetails() {
         return "Hostel{" +
@@ -13,10 +14,10 @@ public abstract class Hostel
     }
     public boolean CheckIn()
     {
-        return false;
+        return !check;
     }
     public boolean CheckOut()
     {
-        return false;
+        return check;
     }
 }
